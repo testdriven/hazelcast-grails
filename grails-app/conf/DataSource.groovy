@@ -13,10 +13,10 @@ hibernate {
     cache.use_minimal_puts = true
 
     // Hazelcast
-//	cache.region.factory_class = 'com.hazelcast.hibernate.HazelcastCacheRegionFactory'
+	cache.region.factory_class = 'com.hazelcast.hibernate.HazelcastCacheRegionFactory'
 
     // EhCache
-	cache.region.factory_class = 'net.sf.ehcache.hibernate.EhCacheRegionFactory'
+//	cache.region.factory_class = 'net.sf.ehcache.hibernate.EhCacheRegionFactory'
 }
 // environment specific settings
 environments {
